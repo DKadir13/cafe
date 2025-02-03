@@ -29,17 +29,20 @@ export const PublicMenu: React.FC = () => {
                         className="w-24 h-24 object-cover rounded"
                       />
                     )}
-                    <div>
-                      <h3 className="text-lg font-medium">{product.name}</h3>
-                      <p className="text-gray-600 text-sm mt-1">
-                        {product.description}
-                      </p>
-                      <p className="text-gray-900 font-medium mt-2">
-                        ${product.price.toFixed(2)}
-                      </p>
-                    </div>
+                      <div>
+                          <h3 className="text-lg font-medium">{product.name}</h3>
+                          <p className="text-gray-600 text-sm mt-1">
+                              {product.description}
+                          </p>
+                          <p className="text-gray-900 font-medium mt-2">
+                              {product.price.toFixed(2)}₺
+                          </p>
+                      </div>
                   </div>
+
                 ))}
+
+
             </div>
           </div>
         ))}

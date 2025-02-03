@@ -182,7 +182,7 @@ export const AdminPanel: React.FC = () => {
                   onClick={() => removeProduct(product.id)}
                   className="text-red-600 hover:text-red-700"
                 >
-                  Remove
+                  Sil
                 </button>
               </div>
             ))}
